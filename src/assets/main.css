@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Heritage Pasture Palette */
+  --color-heritage-green: #2D4628;
+  --color-fresh-cream: #F9F7F2;
+  --color-golden-grain: #D4A373;
+  --color-iron-ore: #1B1B1B;
+  
+  /* Modern Accents */
+  --color-sage: #9AB0A1;
+  --color-buttercup: #F2CC8F;
+
+  /* Typography */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-fresh-cream);
+  color: var(--color-iron-ore);
+  font-family: var(--font-sans);
+}
